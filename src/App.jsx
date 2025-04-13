@@ -9,6 +9,9 @@ import MenuSection from '../Components/MenuSection'
 import Section5 from '../Components/Section5'
 import Footer from '../Components/Footer'
 import Section4 from '../Components/section4'
+import VideoSection from '../Components/videoSection'
+import VisitOurCafe from '../Components/visitOurCafe'
+
 
 function App() {
   return (
@@ -21,6 +24,8 @@ function App() {
       <OurStory />
       <Section3 />
       {/* <MenuSection /> */}
+      <VisitOurCafe />
+      <VideoSection />
       <Section4 />
       <Section5 />
       <Footer />

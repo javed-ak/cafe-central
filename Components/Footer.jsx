@@ -4,8 +4,9 @@ import Social from "./Social";
 
 export default function Footer() {
     return (
-        <div className="relative bg-black">
+        <div className="relative bg-cyan-950">
             {/* ANGLED TOP SVG */}
+            {/* <div className="h-2 hero-clip bg-white"></div> */}
             <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0] -translate-y-full rotate-180">
                 <svg
                     className="relative block w-[calc(100%+1.3px)] h-[60px]"
@@ -15,7 +16,7 @@ export default function Footer() {
                 >
                     <path
                         d="M1200 0L0 0 598.97 114.72 1200 0z"
-                        className="fill-black"
+                        className="fill-cyan-950"
                     ></path>
                 </svg>
             </div>
@@ -24,20 +25,13 @@ export default function Footer() {
             <div className="container mx-auto text-white py-20 grid grid-cols-4 relative z-10">
                 {/* COLUMN 1 */}
                 <div className="p-10 flex flex-col gap-5">
-                    <h1 className="font-bold text-2xl">Main Branch</h1>
-                    <div className="flex flex-col gap-3">
-                        <div className='flex items-center gap-5'>
-                            <FaLocationDot size={22} />
-                            <div>732/21 Second Street, King Street, New York</div>
-                        </div>
-                        <div className='flex items-center gap-5'>
-                            <FaPhoneAlt size={22} />
-                            <div>+91 273823838</div>
-                        </div>
-                        <div className='flex items-center gap-5'>
-                            <FaMapMarkedAlt size={22} />
-                            <div>Get Direction</div>
-                        </div>
+                    <div>
+                        <h1 className="text-3xl font-bold">CAFE</h1>
+                        <h6 className="text-sm font-light">CENTRAL</h6>
+                    </div>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur tempore ex aperiam, fugit explicabo delectus?</div>
+                    <div>
+                        <Social />
                     </div>
                 </div>
 
@@ -62,28 +56,35 @@ export default function Footer() {
 
                 {/* COLUMN 3 */}
                 <div className="p-10 flex flex-col gap-5">
-                    <h1 className="font-bold text-2xl">Download Menu</h1>
+                    <h1 className="font-bold text-2xl">Main Branch</h1>
                     <div className="flex flex-col gap-3">
-                        <img src="/javedakhtar.vercel.app.png" alt="https://javedakhtar.vercel.app" width={160} />
+                        <div className='flex items-center gap-5'>
+                            <FaLocationDot size={22} />
+                            <div>732/21 Second Street, King Street, New York</div>
+                        </div>
+                        <div className='flex items-center gap-5'>
+                            <FaPhoneAlt size={22} />
+                            <div>+91 273823838</div>
+                        </div>
+                        <div className='flex items-center gap-5'>
+                            <FaMapMarkedAlt size={22} />
+                            <div>Get Direction</div>
+                        </div>
                     </div>
                 </div>
 
                 {/* COLUMN 4 */}
                 <div className="p-10 flex flex-col gap-5">
-                    <div>
-                        <h1 className="text-3xl font-bold">CAFE</h1>
-                        <h6 className="text-sm font-light">CENTRAL</h6>
-                    </div>
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur tempore ex aperiam, fugit explicabo delectus?</div>
-                    <div>
-                        <Social />
+                    <h1 className="font-bold text-2xl">Download Menu</h1>
+                    <div className="flex flex-col gap-3">
+                        <img src="/javedakhtar.vercel.app.png" alt="https://javedakhtar.vercel.app" width={160} />
                     </div>
                 </div>
             </div>
 
             {/* COPYRIGHT */}
-            <div className="text-white container mx-auto flex justify-center items-center p-1 border-t-2 border-slate-800">
-                <div className="p-2 text-sm">
+            <div className="text-white container mx-auto flex justify-center items-center p-1 border-t-2 border-slate-700">
+                <div className="p-2 text-sm ">
                     © 2025 Cafe Central. All rights reserved. Design & Develop by Ilmora
                 </div>
             </div>

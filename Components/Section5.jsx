@@ -2,7 +2,7 @@ export default function Section5() {
   return (
     <div>
       <div className="relative pt-20 -mb-40">
-        <div className="bg-slate-800 container mx-auto p-30 rounded-lg flex flex-col justify-center items-center gap-10 text-center text-white z-10">
+        <div className="bg-cyan-950 container mx-auto p-30 rounded-lg flex flex-col justify-center items-center gap-10 text-center text-white z-10">
           <div>
             <h1 className="font-bold text-6xl font-serif text-[#CFA66F]">CAFE CENTRAL</h1>
           </div>
