@@ -25,7 +25,7 @@ export default function Footer() {
             <div className="container mx-auto text-white py-20 grid grid-cols-4 relative z-10">
                 {/* COLUMN 1 */}
                 <div className="p-10 flex flex-col gap-5">
-                    <div>
+                    <div className="cursor-pointer">
                         <h1 className="text-3xl font-bold">CAFE</h1>
                         <h6 className="text-sm font-light">CENTRAL</h6>
                     </div>
@@ -43,11 +43,11 @@ export default function Footer() {
                             <FaLocationDot size={22} />
                             <div>732/21 Second Street, King Street, New York</div>
                         </div>
-                        <div className='flex items-center gap-5'>
+                        <div className='flex items-center gap-5 cursor-pointer'>
                             <FaPhoneAlt size={22} />
                             <div>+91 273823838</div>
                         </div>
-                        <div className='flex items-center gap-5'>
+                        <div className='flex items-center gap-5 cursor-pointer'>
                             <FaMapMarkedAlt size={22} />
                             <div>Get Direction</div>
                         </div>
@@ -62,11 +62,11 @@ export default function Footer() {
                             <FaLocationDot size={22} />
                             <div>732/21 Second Street, King Street, New York</div>
                         </div>
-                        <div className='flex items-center gap-5'>
+                        <div className='flex items-center gap-5 cursor-pointer'>
                             <FaPhoneAlt size={22} />
                             <div>+91 273823838</div>
                         </div>
-                        <div className='flex items-center gap-5'>
+                        <div className='flex items-center gap-5 cursor-pointer'>
                             <FaMapMarkedAlt size={22} />
                             <div>Get Direction</div>
                         </div>
@@ -85,7 +85,7 @@ export default function Footer() {
             {/* COPYRIGHT */}
             <div className="text-white container mx-auto flex justify-center items-center p-1 border-t-2 border-slate-700">
                 <div className="p-2 text-sm ">
-                    © 2025 Cafe Central. All rights reserved. Design & Develop by Ilmora
+                    © 2025 <span className="text-red-400">Cafe Central</span>. All rights reserved. Design & Develop by <span className="cursor-pointer text-red-400">Ilmora</span>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@ export default function Section5() {
           <div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, commodi? Minus, aspernatur voluptates ut temporibus eos adipisci tempore itaque sint atque blanditiis doloribus incidunt nesciunt dolorem asperiores id sed corporis vero fuga rerum, dolor error veritatis! Necessitatibus quaerat exercitationem voluptas dolorem sapiente cupiditate, quia, ipsa dignissimos eum possimus, facere quidem.</p>
           </div>
-          <div className="border-y py-3 text-xl font-serif ">
+          <div className="border-y py-3 text-xl font-serif hover:text-[#CFA66F] hover:scale-105 transition-all">
             <div>Discover the Cafe</div>
           </div>
         </div>

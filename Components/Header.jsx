@@ -5,7 +5,7 @@ export default function Header() {
         <div>
             <div className='grid grid-cols-2 container mx-auto h-16 flex items-center text-white z-10 p-5'>
                 <div>
-                    <div className=' '>
+                    <div className='cursor-pointer'>
                         <h1 className='font-bold text-4xl '>CAFE </h1>
                         <h6 className='font-bold text-xs tracking-widest'>CENTRAL</h6>
                     </div>

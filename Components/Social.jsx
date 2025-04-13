@@ -6,10 +6,10 @@ export default function Social() {
     return (
         <div>
             <div className='flex gap-2 justify-around items-center'>
-                <FaFacebook size={22}/>
-                <RiTwitterXLine size={22} />
-                <FaInstagram size={22} />
-                <FaPinterest size={22} />
+                <div className="cursor-pointer hover:scale-110 transition-all"><FaFacebook size={22}/></div>
+                <div className="cursor-pointer hover:scale-110 transition-all"><RiTwitterXLine size={22}/></div>
+                <div className="cursor-pointer hover:scale-110 transition-all"><FaInstagram size={22}/></div>
+                <div className="cursor-pointer hover:scale-110 transition-all"><FaPinterest size={22}/></div>
             </div>
         </div>
     )
