@@ -85,7 +85,7 @@ export default function Footer() {
             {/* COPYRIGHT */}
             <div className="text-white container mx-auto flex justify-center items-center p-1 border-t-2 border-slate-700">
                 <div className="p-2 text-sm ">
-                    © 2025 <span className="text-red-400">Cafe Central</span>. All rights reserved. Design & Develop by <span className="cursor-pointer text-red-400">Ilmora</span>
+                    © 2025 <span className="text-red-400">Cafe Central</span>. All rights reserved. Design & Develop by <a href="https://javedakhtar.vercel.app" target="_blank" className="cursor-pointer text-red-400">Javed Akhtar</a>
                 </div>
             </div>
         </div>
