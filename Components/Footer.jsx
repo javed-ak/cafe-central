@@ -77,7 +77,7 @@ export default function Footer() {
                 <div className="p-10 flex flex-col gap-5">
                     <h1 className="font-bold text-2xl">Download Menu</h1>
                     <div className="flex flex-col gap-3">
-                        <img src="/javedakhtar.vercel.app.png" alt="https://javedakhtar.vercel.app" width={160} />
+                        <a href="https://codspark.in"><img src="/CodSparkQR.png" alt="https://codspark.in" width={160} /></a>
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@ export default function Footer() {
             {/* COPYRIGHT */}
             <div className="text-white container mx-auto flex justify-center items-center p-1 border-t-2 border-slate-700">
                 <div className="p-2 text-sm ">
-                    © 2025 <span className="text-red-400">Cafe Central</span>. All rights reserved. Design & Develop by <a href="https://javedakhtar.vercel.app" target="_blank" className="cursor-pointer text-red-400">Javed Akhtar</a>
+                    © 2026 <span className="text-red-400">Cafe Central</span>. Powered by <a href="https://codspark.in" target="_blank" className="cursor-pointer text-red-400">CodSpark</a>
                 </div>
             </div>
         </div>
